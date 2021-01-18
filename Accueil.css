@@ -1,0 +1,390 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family:raleway, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}    
+header
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Logo_reservia
+{
+    height: 40px;
+    padding-top: 30px;
+}
+.Menu
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.Accommodations
+{   
+    padding: 30px 25px 0px 25px;
+}
+.Accommodations:hover
+{
+    border-top: 3px solid #0065FC;
+}
+.Activities
+{
+    color: black;
+    padding: 30px 25px 0px 25px;
+}
+.Activities:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+.Register
+{
+    padding: 30px 25px 0px 25px;
+    color: black;
+    font-weight: bold;
+}
+.Register:hover
+{
+    border-top: 3px solid #0065FC;
+}
+body
+{
+    flex-wrap: wrap;
+}
+.Find_your_accomadation_for_a_dream_vacation
+{
+    margin: 30px 0px 0px 0px;
+}
+.In_the_city_center_or_in_the_heart_of_nature
+{
+    margin: 10px 0px 0px 0px;
+}
+.Search_menu
+{
+    margin: 25px 0px 25px 0px;
+    display: flex;
+}
+.fa-map-marker-alt
+{
+    width: 50px;
+    height: 25px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+.Search_area
+{
+    border: 1px solid #F2F2F2; 
+}
+.Search_button
+{
+    width: 150px;
+    padding: 7px 0px 0px 0px;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    background-color:#0065FC;
+}
+.Filters
+{
+    font-size: 10px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+.Title_Filters
+{
+    margin-right: 25px;
+}
+.Criteria
+{
+    display: flex;
+    list-style-type: none;
+    font-size: 15px;
+}
+.Criteria li
+{
+    border-radius: 24px;
+    border: 1px solid #F2F2F2;
+    padding: 0px 24px 0px 0px;
+    margin: 0px 25px 0px 0px;
+}
+.Criteria li i
+{
+    width: 48px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 24px;
+    color:#0065FC;
+    background-color: #DEEBFF;
+}
+.Informations
+{
+    margin-top: 20px;
+    display: flex; 
+    align-items: center;
+}
+.fa-info
+{
+    color:#0065FC;
+    border-radius: 100%;
+    border: 1px solid  #DEEBFF; 
+    padding: 5px 10px 5px 10px;
+}
+.Informations_text
+{
+    margin-left: 20px; 
+}
+.Second_section
+{
+    display: flex;
+}
+.fa-star.full
+{
+    color:#0065FC;
+}
+.fa-star.empty
+{
+    color:#F2F2F2;
+}
+.Stars
+{
+    margin-left: 10px;
+}
+.First_regrouping
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+    margin: 20px 50px 0px 0px;
+}
+.Accommodations_in_Marseille
+{
+    width: 100%;
+    margin: 40px 0px 10px 60px;
+}
+.First_cadre
+{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 1px 5px 2px #F2F2F2;
+}
+.First_cadre_option1
+{
+    margin: 0px 20px 20px 60px;
+}
+.First_cadre_option2
+{
+    margin: 0px 20px 20px 40px;
+}
+.Accommodations_names
+{
+    font-weight: bold;
+    margin: 0px 0px 10px 10px;
+}
+.Accommodations_prices
+{
+    margin: 0px 0px 10px 10px;
+}
+.photos_of_the_first_section
+{
+    object-fit: cover;
+    width:280px;
+    height:120px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Show_more
+{
+    font-weight: bold;
+    margin: 10px 0px 20px 60px;
+}
+.Second_regrouping
+{
+    margin: 20px 0px 0px 20px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+}
+.More_popular
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 0px 10px;
+}
+.fa-chart-line
+{
+    font-size: 20px;
+}
+.Second_cadre
+{
+    width:330px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #F2F2F2;
+}
+.Second_cadre_Option1
+{
+    margin: 30px 10px 10px 10px;
+}
+.Second_cadre_Option2
+{
+    margin: 10px;
+}
+.Photos_of_the_second_section
+{
+    object-fit: cover;
+    width: 130px;
+    height: 150px;
+    margin: 5px 20px 5px 5px;
+    float: left;
+    border-radius: 20px 0px 0px 20px;
+}
+.Accommodations_more_popular
+{
+    font-weight: bold;
+    margin: 30px 0px 10px 0px;
+}
+.Accommodations_prices_more_popular
+{
+    margin: 0px 0px 30px 0px;
+}
+.Activities_in_Marseille
+{
+    margin: 50px 0px 30px 0px;
+}
+.Third_regrouping
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Activities_names
+{
+    font-weight: bold;
+    margin: 10px;
+}
+.Old_port
+{
+    margin: 0px 20px 0px 0px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2; 
+    box-shadow: 6px 6px 6px #F2F2F2;
+}
+.First_block
+{
+    display: flex;;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Fort_of_Pomegues
+{
+    margin: 0px 20px 20px 20px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2; 
+    box-shadow: 6px 6px 6px #F2F2F2;
+}
+.Frioul_islands
+{
+    margin: 20px 20px 0px 20px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2; 
+    box-shadow: 6px 6px 6px #F2F2F2;
+}
+.Calanques_national_park
+{
+    margin: 0px 20px 0px 20px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2; 
+    box-shadow: 6px 6px 6px #F2F2F2;
+}
+.Notre_Dame_De_La_Garde
+{
+    margin: 0px 0px 20px 20px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2; 
+    box-shadow: 6px 6px 6px #F2F2F2;
+}
+.Longchamp_park
+{
+    margin: 20px 0px 0px 20px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 6px 6px 6px #F2F2F2; 
+}
+.Troisieme_regrouping
+{
+    object-fit: cover;
+    width: 360px;
+    height: 540px;
+    border-radius: 10px 10px 0px 0px;
+}
+.Fourth_regrouping
+{
+    object-fit: cover;
+    width: 360px;
+    height: 303px;
+    border-radius: 10px 10px 0px 0px;
+}
+.Fifth_regrouping
+{
+    object-fit: cover;
+    width: 360px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+}
+.Sixth_regrouping
+{
+    object-fit: cover;
+    width: 360px;
+    height: 228px;
+    border-radius: 10px 10px 0px 0px;
+}
+footer
+{
+    margin: 30px -50px 0px -50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+}
+.Column
+{
+    margin: 30px 240px 0px 50px;
+}
+.Column ul
+{
+    list-style-type: none;
+}
+.Column ul li
+{
+    margin: 10px;
+}
+.About
+{
+    font-weight: bold;
+}
+.Our_accommodations
+{
+    font-weight: bold;
+}
+.Assitance
+{
+    font-weight: bold;
+}
