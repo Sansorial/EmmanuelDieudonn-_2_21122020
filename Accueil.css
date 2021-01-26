@@ -166,8 +166,7 @@ a
 .First_regrouping
 {
     display: flex;
-    /* flex-wrap: wrap;  */
-    flex-direction: column;
+    flex-wrap: wrap;
     background-color:#F2F2F2;
     border-radius: 20px;
     margin: 20px 50px 0px 0px;
@@ -177,20 +176,28 @@ a
     width: 100%;
     margin: 40px 0px 10px 60px;
 }
+.cadre{
+    display:flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    margin: 0 55px;
+}
 .First_cadre
 {
+    width: 30%;
+    /* height:260px; */
     background-color: white;
     border-radius: 20px;
     padding: 5px;
     box-shadow: 2px 1px 5px 2px #F2F2F2;
+    margin: 5px;
 }
-.First_cadre_option1
+.first_cadre_content
 {
-    margin: 0px 20px 20px 60px;
-}
-.First_cadre_option2
-{
-    margin: 0px 20px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    /* height:130px; */
+    justify-content: space-around;
 }
 .Accommodations_names
 {
@@ -204,11 +211,12 @@ a
 .photos_of_the_first_section
 {
     object-fit: cover;
-    width:280px;
-    height:120px;
+    /* width:280px;
+    height:120px; */
+    width:100%;
+    height:130px;
     border-radius: 20px 20px 0px 0px;
 }
-
 .Show_more
 {
     font-weight: bold;
@@ -408,5 +416,34 @@ footer
     .Logo_reservia
     {
         display: none;
+    }
+    .Second_section
+    {
+        flex-direction:column-reverse;
+    }
+    .First_cadre
+    {
+        width:100%;
+    }
+    .photos_of_the_first_section
+    {
+        height:120px;
+    }
+    .Second_regrouping
+    {
+        margin: 20px 0;
+    }
+    .First_regrouping
+    {
+        margin: 20px 0;
+    }
+    .Second_cadre
+    {
+        width:100%;
+        margin:10px 0;
+    }
+    .More_popular
+    {
+        margin-bottom: 20px;
     }
 }
