@@ -8,6 +8,7 @@ body
     font-family:raleway, sans-serif;
     margin-left: 50px;
     margin-right: 50px;
+    flex-wrap: wrap;
 }    
 header
 {
@@ -26,41 +27,35 @@ header
     justify-content: space-between;
     list-style: none;
 }
+.Menu li
+{
+    padding: 30px 25px 0px;
+}
+.Menu li:hover
+{
+    border-top: 3px solid #0065FC;
+    padding: 27px 25px 0px;
+}
+.Menu li a
+{
+    color:grey;
+}
+.Menu .Navbtn:hover a
+{
+    color:#0065FC;
+}
+.Menu .Register a
+{
+    color:#0065FC ;
+    font-weight: bold;
+}
 a
 {
     text-decoration: none;
 }
-.Accommodations
-{   
-    padding: 30px 25px 0px 25px;
-}
-.Accommodations:hover
+.Mobile_header li
 {
-    border-top: 3px solid #0065FC;
-}
-.Activities
-{
-    color: black;
-    padding: 30px 25px 0px 25px;
-}
-.Activities:hover
-{
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
-}
-.Register
-{
-    padding: 30px 25px 0px 25px;
-    color: black;
-    font-weight: bold;
-}
-.Register:hover
-{
-    border-top: 3px solid #0065FC;
-}
-body
-{
-    flex-wrap: wrap;
+    display: none;
 }
 .Find_your_accomadation_for_a_dream_vacation
 {
@@ -117,10 +112,14 @@ body
 }
 .Criteria li
 {
-    border-radius: 24px;
+    border-radius: 25px;
     border: 1px solid #F2F2F2;
     padding: 0px 24px 0px 0px;
     margin: 0px 25px 0px 0px;
+}
+.Criteria li:hover
+{
+    background-color: #0065FC;
 }
 .Criteria li i
 {
@@ -167,7 +166,8 @@ body
 .First_regrouping
 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;  */
+    flex-direction: column;
     background-color:#F2F2F2;
     border-radius: 20px;
     margin: 20px 50px 0px 0px;
@@ -387,4 +387,26 @@ footer
 .Assitance
 {
     font-weight: bold;
+}
+@media screen and (max-width: 1280px)
+{
+    header 
+    {
+        flex-direction: column;
+    }
+    .Mobile_header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .Mobile_header li
+    {
+        display: inline-block;
+    }
+    .Mobile_header li .Logo_reservia_Mobile
+
+    .Logo_reservia
+    {
+        display: none;
+    }
 }
