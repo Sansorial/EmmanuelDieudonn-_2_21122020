@@ -16,35 +16,43 @@ header
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.Logo_reservia
+.logo_reservia
 {
-    height: 40px;
     padding-top: 30px;
 }
-.Menu
+.list_mobile_register
 {
+    display: none;
+}
+.register_mobile
+{
+    display: none;
+}
+.menu
+{
+    width:100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
-.Menu li
+.menu li
 {
     padding: 30px 25px 0px;
 }
-.Menu li:hover
+.menu li:hover
 {
     border-top: 3px solid #0065FC;
     padding: 27px 25px 0px;
 }
-.Menu li a
+.menu li a
 {
     color:grey;
 }
-.Menu .Navbtn:hover a
+.menu .navbtn:hover a
 {
     color:#0065FC;
 }
-.Menu .Register a
+.menu .register a
 {
     color:#0065FC ;
     font-weight: bold;
@@ -53,84 +61,92 @@ a
 {
     text-decoration: none;
 }
-.Mobile_header li
+.find_your_accomadation_for_a_dream_vacation
 {
-    display: none;
-}
-.Find_your_accomadation_for_a_dream_vacation
-{
+    width: 100%;
     margin: 30px 0px 0px 0px;
 }
-.In_the_city_center_or_in_the_heart_of_nature
+.in_the_city_center_or_in_the_heart_of_nature
 {
+    font-size: 1rem;
     margin: 10px 0px 0px 0px;
 }
-.Search_menu
+.search_menu
 {
+    width: 100%;
     margin: 25px 0px 25px 0px;
     display: flex;
 }
 .fa-map-marker-alt
 {
-    width: 50px;
+    width: 3.2%;
     height: 25px;
     padding: 10px 0px 0px 0px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 20px 0px 0px 20px;
     text-align: center;
     background-color: #F2F2F2;
 }
-.Search_area
+.search_area
 {
     border: 1px solid #F2F2F2; 
 }
-.Search_button
+.search_button
 {
     width: 150px;
     padding: 7px 0px 0px 0px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 20px 20px 0px;
     text-align: center;
     color:white;
     font-weight: bold;
     background-color:#0065FC;
 }
-.Filters
+.fa-sistrix
+{
+    display: none;
+}
+.mobile_filters
+{
+    display: none;
+}
+.filters
 {
     font-size: 10px;
     display: flex;
     font-weight: bold;
     align-items: center;
 }
-.Title_Filters
+.title_filters
 {
     margin-right: 25px;
 }
-.Criteria
+.criteria
 {
     display: flex;
     list-style-type: none;
     font-size: 15px;
+    flex-wrap: wrap;
 }
-.Criteria li
+.criteria li
 {
     border-radius: 25px;
-    border: 1px solid #F2F2F2;
+    border: 5px solid #F2F2F2;
     padding: 0px 24px 0px 0px;
     margin: 0px 25px 0px 0px;
 }
-.Criteria li:hover
+.criteria li:hover
 {
     background-color: #0065FC;
 }
-.Criteria li i
+.criteria li i
 {
     width: 48px;
     text-align: center;
     line-height: 48px;
-    border-radius: 24px;
+    border-radius: 25px;
     color:#0065FC;
     background-color: #DEEBFF;
 }
-.Informations
+.informations
 {
     margin-top: 20px;
     display: flex; 
@@ -143,11 +159,11 @@ a
     border: 1px solid  #DEEBFF; 
     padding: 5px 10px 5px 10px;
 }
-.Informations_text
+.informations_text
 {
     margin-left: 20px; 
 }
-.Second_section
+.second_section
 {
     display: flex;
 }
@@ -159,11 +175,11 @@ a
 {
     color:#F2F2F2;
 }
-.Stars
+.stars
 {
     margin-left: 10px;
 }
-.First_regrouping
+.first_regrouping
 {
     display: flex;
     flex-wrap: wrap;
@@ -171,7 +187,7 @@ a
     border-radius: 20px;
     margin: 20px 50px 0px 0px;
 }
-.Accommodations_in_Marseille
+.accommodations_in_marseille
 {
     width: 100%;
     margin: 40px 0px 10px 60px;
@@ -182,7 +198,7 @@ a
     flex-wrap: wrap;
     margin: 0 55px;
 }
-.First_cadre
+.first_cadre
 {
     width: 30%;
     /* height:260px; */
@@ -199,12 +215,12 @@ a
     /* height:130px; */
     justify-content: space-around;
 }
-.Accommodations_names
+.accommodations_names
 {
     font-weight: bold;
     margin: 0px 0px 10px 10px;
 }
-.Accommodations_prices
+.accommodations_prices
 {
     margin: 0px 0px 10px 10px;
 }
@@ -217,12 +233,12 @@ a
     height:130px;
     border-radius: 20px 20px 0px 0px;
 }
-.Show_more
+.show_more
 {
     font-weight: bold;
     margin: 10px 0px 20px 60px;
 }
-.Second_regrouping
+.second_regrouping
 {
     margin: 20px 0px 0px 20px;
     padding: 20px 20px 20px 20px;
@@ -231,7 +247,7 @@ a
     background-color:#F2F2F2;
     border-radius: 20px;
 }
-.More_popular
+.more_popular
 {
     display: flex;
     justify-content: space-between;
@@ -241,22 +257,22 @@ a
 {
     font-size: 20px;
 }
-.Second_cadre
+.second_cadre
 {
     width:330px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 6px 6px 6px #F2F2F2;
 }
-.Second_cadre_Option1
+.second_cadre_Option1
 {
     margin: 30px 10px 10px 10px;
 }
-.Second_cadre_Option2
+.second_cadre_Option2
 {
     margin: 10px;
 }
-.Photos_of_the_second_section
+.photos_of_the_second_section
 {
     object-fit: cover;
     width: 130px;
@@ -265,100 +281,100 @@ a
     float: left;
     border-radius: 20px 0px 0px 20px;
 }
-.Accommodations_more_popular
+.accommodations_more_popular
 {
     font-weight: bold;
     margin: 30px 0px 10px 0px;
 }
-.Accommodations_prices_more_popular
+.accommodations_prices_more_popular
 {
     margin: 0px 0px 30px 0px;
 }
-.Activities_in_Marseille
+.activities_in_aarseille
 {
     margin: 50px 0px 30px 0px;
 }
-.Third_regrouping
+.third_regrouping
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.Activities_names
+.activities_names
 {
     font-weight: bold;
     margin: 10px;
 }
-.Old_port
+.old_port
 {
     margin: 0px 20px 0px 0px;
     border-radius: 20px;
     border: 1px solid #F2F2F2; 
     box-shadow: 6px 6px 6px #F2F2F2;
 }
-.First_block
+.first_block
 {
     display: flex;;
     flex-direction: column;
     justify-content: space-between;
 }
-.Fort_of_Pomegues
+.fort_of_pomegues
 {
     margin: 0px 20px 20px 20px;
     border-radius: 20px;
     border: 1px solid #F2F2F2; 
     box-shadow: 6px 6px 6px #F2F2F2;
 }
-.Frioul_islands
+.frioul_islands
 {
     margin: 20px 20px 0px 20px;
     border-radius: 20px;
     border: 1px solid #F2F2F2; 
     box-shadow: 6px 6px 6px #F2F2F2;
 }
-.Calanques_national_park
+.calanques_national_park
 {
     margin: 0px 20px 0px 20px;
     border-radius: 20px;
     border: 1px solid #F2F2F2; 
     box-shadow: 6px 6px 6px #F2F2F2;
 }
-.Notre_Dame_De_La_Garde
+.notre_dame_de_la_garde
 {
     margin: 0px 0px 20px 20px;
     border-radius: 20px;
     border: 1px solid #F2F2F2; 
     box-shadow: 6px 6px 6px #F2F2F2;
 }
-.Longchamp_park
+.longchamp_park
 {
     margin: 20px 0px 0px 20px;
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     box-shadow: 6px 6px 6px #F2F2F2; 
 }
-.Troisieme_regrouping
+.troisieme_regrouping
 {
     object-fit: cover;
     width: 360px;
     height: 540px;
     border-radius: 10px 10px 0px 0px;
 }
-.Fourth_regrouping
+.fourth_regrouping
 {
     object-fit: cover;
     width: 360px;
     height: 303px;
     border-radius: 10px 10px 0px 0px;
 }
-.Fifth_regrouping
+.fifth_regrouping
 {
     object-fit: cover;
     width: 360px;
     height: 150px;
     border-radius: 10px 10px 0px 0px;
 }
-.Sixth_regrouping
+.sixth_regrouping
 {
     object-fit: cover;
     width: 360px;
@@ -372,56 +388,186 @@ footer
     flex-wrap: wrap;
     background-color: #F2F2F2;
 }
-.Column
+.column
 {
     margin: 30px 240px 0px 50px;
 }
-.Column ul
+.column ul
 {
     list-style-type: none;
 }
-.Column ul li
+.column ul li
 {
     margin: 10px;
 }
-.About
+.about
 {
     font-weight: bold;
 }
-.Our_accommodations
+.our_accommodations
 {
     font-weight: bold;
 }
-.Assitance
+.assitance
 {
     font-weight: bold;
 }
 @media screen and (max-width: 1280px)
 {
-    header 
+    header
     {
         flex-direction: column;
     }
-    .Mobile_header
+    .mobile_header
     {
         display: flex;
         justify-content: space-between;
+        text-align: center;
+        margin-top: 20px;
     }
-    .Mobile_header li
+    .logo_reservia
     {
-        display: inline-block;
+        height: 7rem;
     }
-    .Mobile_header li .Logo_reservia_Mobile
-
-    .Logo_reservia
+    .list_mobile_register
     {
-        display: none;
+        font-size: 2.5rem;
+        list-style: none;
+        margin-top: 70px;
+        display: block;
     }
-    .Second_section
+    .register_mobile
+    {
+        display: block;
+        color:#0065FC ;
+        font-weight: bold;
+    }
+    .register
+    {
+        display:none;
+    }
+    .nav_part
+    {
+        margin:50px -50px 30px -50px
+    }
+    .menu
+    {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .menu li
+    {
+        width:100%;
+        text-align: center;
+        border-bottom: 3px solid grey;
+        font-size: 2rem;
+        padding:1%;
+        font-size: 2.2rem;
+    }
+    .menu li:hover
+    {   
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        text-align: center;
+        padding:1%;
+        margin: 0%;
+    }
+    .find_your_accomadation_for_a_dream_vacation
+    {
+        font-size: 2.9rem;
+        margin-top: 50px;
+    }
+    .in_the_city_center_or_in_the_heart_of_nature
+    {
+        margin-top: 50px;
+        font-size: 1.3rem;
+    }
+    .search_menu
+    {
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+    .fa-map-marker-alt
+    {
+        width: 15%;
+        height: 85px;
+        font-size: 3rem;
+        padding-top: 38px;
+        border-radius: 40px 0px 0px 40px;
+    }
+    .search_area
+    {
+        width: 77%;
+        border: 3px solid #F2F2F2;
+    }
+    .search_button
+    {
+        display:none;
+    }
+    .fa-sistrix
+    {
+        width: 15%;
+        font-size: 3rem;
+        padding: 40px 0px 0px 0px;
+        border-radius: 30px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: #0065FC;
+        margin-left: -30px;
+}
+.mobile_filters
+{
+    display: block;
+    font-weight: bold;
+    align-items: center;
+    font-size: 2rem;
+}
+.title_filters
+{
+    display: none;
+}
+.criteria
+{
+    margin-top: 10px;
+    font-size: 2.2rem;
+}
+.criteria li
+{
+    padding: 25px 40px 10px 25px;
+    margin: 25px 25px 0px 0px;
+    border-radius: 70px;
+}
+.criteria li i
+{
+    padding: 35px;
+    border-radius: 70px;
+    margin: -28px 10px -12px -28px;
+}
+.informations
+{
+    margin-top: 60px;
+}
+.fa-info
+{
+    border: 3px solid #DEEBFF;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 3%;
+    border-radius: 37px;
+    text-align: center;
+}
+.informations_text
+{
+    font-size: 2.4rem;
+}
+    .second_section
     {
         flex-direction:column-reverse;
     }
-    .First_cadre
+    .first_cadre
     {
         width:100%;
     }
@@ -429,20 +575,20 @@ footer
     {
         height:120px;
     }
-    .Second_regrouping
+    .second_regrouping
     {
         margin: 20px 0;
     }
-    .First_regrouping
+    .first_regrouping
     {
         margin: 20px 0;
     }
-    .Second_cadre
+    .second_cadre
     {
         width:100%;
         margin:10px 0;
     }
-    .More_popular
+    .more_popular
     {
         margin-bottom: 20px;
     }
